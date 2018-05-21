@@ -1,4 +1,5 @@
 # Data file holding variables used for gantry robot
+# Se floor.py for utfyllende kommentarer
 
 joint_names = [
     "gantry_joint_a1",
