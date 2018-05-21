@@ -1,0 +1,8 @@
+Robotene er fint i stand til å ta livet av deg og studentene dine. Aldri gå fra labben hvis nødstoppen er ulåst. Ikke kjør programmet på hastigeheter som du ikke er komfortabel med. Mindre enn 10% er en fin start.
+
+1. Begge robotskapene må være på
+2. Sett program override på robotskapene til 10% eller mindre.
+3. Start kukavarproxy på begge robotene
+4. Stå klar med nødstoppen.
+5. S R og I skal alle være grønn på begge robotene.
+6. La studentene starte programmet sitt.
