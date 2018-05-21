@@ -18,4 +18,26 @@ position['home'] = [
      0.0
 ]
 
+position['pregrab'] = [
+    1.0850, 
+    -0.3866, 
+    1.2640, 
+    -2.0048, 
+    1.1811, 
+    1.2412
+]
+
+position['grab'] = list(position['pregrab'])
+
+position['lift'] = [
+    1.0850, 
+    -0.8190, 
+    1.3316, 
+    -1.8359, 
+    1.0544, 
+    0.8597
+]
+
+position['rotate'] = list(position['lift'])
+position['rotate'][5] += 1.5708
 

@@ -54,6 +54,14 @@ if __name__ == "__main__":
 	gac.action_client.wait_for_result()
 
 	# Let's lift the box
+	fac.goToPosition(joint_goal = floor.position['lift'], dur=10.0);
+	gac.goToPosition(joint_goal = gantry.position['lift'], dur=10.0);
+
+        rospy.loginfo("Waiting for move to complete")
+        fac.action_client.wait_for_result()
+	gac.action_client.wait_for_result()
+
+        # Let's rotate the box
 	fac.goToPosition(joint_goal = floor.position['rotate'], dur=10.0);
 	gac.goToPosition(joint_goal = gantry.position['rotate'], dur=10.0);
 
@@ -68,7 +76,6 @@ if __name__ == "__main__":
         rospy.loginfo("Waiting for move to complete")
         fac.action_client.wait_for_result()
 	gac.action_client.wait_for_result()
-
 
                
     except rospy.ROSInterruptException:
