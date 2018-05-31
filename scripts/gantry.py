@@ -32,7 +32,7 @@ position['pregrab'] = [
     1.2640, 
     -1.4000, 
     1.1811, 
-    1.2412,
+    4.36,
     1.17,
     3.7,
     -1.0121
@@ -48,4 +48,7 @@ position['lift'][8] += 0.4
 
 position['rotate'] = list(position['lift'])
 position['rotate'][5] += -1.5708
+
+position['release'] = list(position['rotate'])
+position['release'][7] += 0.05
 
